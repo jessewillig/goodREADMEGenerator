@@ -1,0 +1,23 @@
+{
+  "name": "hw7-ReadMeGenerator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessewillig/hw7-ReadMeGenerator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jessewillig/hw7-ReadMeGenerator/issues"
+  },
+  "homepage": "https://github.com/jessewillig/hw7-ReadMeGenerator#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  }
+}
