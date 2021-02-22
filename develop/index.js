@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const generatemarkdown = require('./utilities/generatemarkdown.js');
 
-inquirer.prompt([
+const questions = [
     {
         type: 'input',
         message: 'What is the name of your project?',
@@ -52,4 +52,17 @@ inquirer.prompt([
         message: 'What is your email address?',
         name: 'email',
     }
-])
+];
+
+function writeFile (fileName, data) {
+    return fs.writeFileSync(path.join(process.cwd(), fileName), data)
+};
+
+function init () {
+    inquirer.prompt(questions)
+    .then(res => {
+        writeFile("README.md", generatemarkdown({...res}))
+    });
+};
+
+init();
