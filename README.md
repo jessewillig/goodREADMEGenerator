@@ -4,6 +4,8 @@ This is a command-line application that generates your README.md for you with di
 
 ## Application
 
+![README gif](./develop/images/README-demo.gif)
+
 ## Installation
 npm install for "inquirer", "fs", and "util" nodes.
 
