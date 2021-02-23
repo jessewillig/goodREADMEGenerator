@@ -1,1 +1,1 @@
-# hw7-ReadMeGenerator
+# hw7-READMEGenerator
