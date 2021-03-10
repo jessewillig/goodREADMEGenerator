@@ -1,4 +1,4 @@
-# hw7-READMEGenerator
+# goodREADMEGenerator
 
 This is a command-line application that generates your README.md for you with direct input! The file also includes a licensing badge.
 
